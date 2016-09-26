@@ -15,3 +15,6 @@ RUN /tmp/ideaIC-latest-installer
 
 COPY mysql-latest-installer /tmp
 RUN /tmp/mysql-latest-installer
+
+COPY hadoop-3.0.0-alpha1.tar.gz /tmp
+COPY spark-2.0.0-bin-hadoop2.7.tgz /tmp
